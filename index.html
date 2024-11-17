@@ -3,12 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <link rel="icon" href="balty.jpg" type="image/x-icon">
@@ -93,21 +91,13 @@
             opacity: .11;
          }
          .modal-content {
-        background-color: #AAB7B8;
-    }
+            background-color: #AAB7B8;
+         }
    
-    h1,h2,h5,h3,p,a{
-        color: #ffff;
-    }
-    .icon-bar {
-    background-color: white;
-}
-.navbar-toggler {
-    background-color: white;
-}
-
-
-    
+         h1,h2,h5,h3,p,a{
+            color: #ffff;
+         }
+      
     </style>
 </head>
 <body data-spy="scroll" data-target=".navbar">
@@ -348,37 +338,38 @@
     <section id="contact" class="container my-6" style="min-height: 100vh; padding-top: 90px;">
         <h2 class="text-center" style="color: white;">Contact Me</h2>
         
-        <div>
-            <div class="container my-5">
-                <form style="max-width: 600px;">
-                    <div class="form-group">
-                        <label for="name" style="color: white;">Your Name</label>
-                        <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+        <div class="container my-5">
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <form style="max-width: 100%;">
+                        <div class="form-group">
+                            <label for="name" style="color: white;">Your Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" style="color: white;">Your Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message" style="color: white;">Message</label>
+                            <textarea class="form-control" id="message" rows="5" placeholder="Your message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-success btn-block">Send Message</button>
+                    </form>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <p class="text-center" style="color: white; padding-top: 60px;">Get in touch with me here!</p>
+                    <div class="social-icons text-center">
+                        <a href="https://github.com/BaltazarDelaCruz" target="_blank" class="m-2"><i class="bi bi-github"></i></a>
+                        <a href="mailto:baltazardelacruz74@gmail.com" target="_blank" class="m-2"><i class="fas fa-envelope"></i></a>
+                        <a href="https://www.facebook.com/gaspar.sambo?mibextid=LQQJ4d" target="_blank" class="m-2"><i class="bi bi-facebook"></i></a>
+                        <a href="https://www.linkedin.com/in/baltazar-dela-cruz-0a4b392a1/" target="_blank" class="m-2"><i class="bi bi-linkedin"></i></a>
+                        <a href="https://www.instagram.com/_jeeeeyr" target="_blank" class="m-2"><i class="bi bi-instagram"></i></a>
                     </div>
-                    <div class="form-group">
-                        <label for="email" style="color: white;">Your Email</label>
-                        <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="message" style="color: white;">Message</label>
-                        <textarea class="form-control" id="message" rows="5" placeholder="Your message" required></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-success btn-block">Send Message</button>
-                </form>
-            
-                <ul class="list-unstyled">
-                    <div class="social-icons">
-                        <p>Get in touch with me here!</p>
-                        <a href="https://github.com/BaltazarDelaCruz" target="_blank"><i class="bi bi-github"></i></a>
-                        <a href="mailto:baltazardelacruz74@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
-                        <a href="https://www.facebook.com/gaspar.sambo?mibextid=LQQJ4d" target="_blank"><i class="bi bi-facebook"></i></a>
-                        <a href="https://www.linkedin.com/in/baltazar-dela-cruz-0a4b392a1/" target="_blank"><i class="bi bi-linkedin"></i></a>
-                        <a href="https://www.instagram.com/_jeeeeyr" target="_blank"><i class="bi bi-instagram"></i></a>
-                    </div>
-                </ul>
+                </div>
             </div>
-            
         </div>
+        
     </section>
       
 </body>
